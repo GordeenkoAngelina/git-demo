@@ -41,4 +41,15 @@ cout << setw(12) << "float" << setw(12) << sizeof(float)
 cout << setw(12) << "double" << setw(12) << sizeof(double) 
 << setw(12) << static_cast<int>(numeric_limits<double>::min())
 << setw(12) <<  static_cast<int>(numeric_limits<double>::max()) << endl;
+
+cout << "Enter n" << endl;
+int n ;
+cin >> n;
+
+
+if (n >= 4) {n = 10;
+cout << "done"; }
+else {cout << "fail";}
+return 0;
 }
+
